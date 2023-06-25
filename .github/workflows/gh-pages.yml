@@ -13,8 +13,6 @@ jobs:
             echo "Creating vendor..."
             mkdir src/vendor
           fi
-      - name: Install Ruby
-        uses: ruby/setup-ruby@v1
       - name: Install Sass
         run: gem install sass
       - name: Install and Build
