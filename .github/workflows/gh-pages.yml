@@ -24,3 +24,4 @@ jobs:
         with:
           folder: dist
           git-config-email: teddy.reinert.github@gmail.com
+          token: ${{ secrets.GH_TOKEN }}
